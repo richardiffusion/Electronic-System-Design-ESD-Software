@@ -7,16 +7,11 @@ A comprehensive Windows-based CAD/EDA tool for schematic capture (SCH) and print
 - ⚡ Real-time DRC and auto-routing
 - 🎯 Professional schematic & PCB layout tools
 
-## System Requirements
-- Windows 7/10/11
-- Visual Studio 2010 or later
-- Codejock ToolkitPro v15.0.1+
-
 ## Quick Start
 
-### Prerequisites
+### 📖 Prerequisites
 1. Install Visual Studio 2010+
-2. Install Codejock ToolkitPro v15.0.1+
+2. Install Codejock ToolkitPro
 3. Clone this repository
 
 ### ⚠️ Important Notes
@@ -32,7 +27,7 @@ A comprehensive Windows-based CAD/EDA tool for schematic capture (SCH) and print
 ### 📚 Documentation
 See repository README.md and README.txt for build instructions and source code details.
 
-### Contact
+### 💬 Contact
 - Email: richard.yiqun.li@outlook.com
 - Website: www.richardiffusion.me
 - Github: github.com/richardiffusion
@@ -56,7 +51,7 @@ See repository README.md and README.txt for build instructions and source code d
 
 <img width="1377" height="1060" alt="SCH-2" src="https://github.com/user-attachments/assets/4cf91609-6063-426e-a7a0-f3b2e356f51c" />
 
-## Press the **Tab** key, use the **View/To PCB** command, or click the toolbar icon [https://SCHTool-1.png](https://schtool-1.png/) to switch to the PCB design environment.
+## Press the **Tab** key, use the **View/To PCB** command, or click the toolbar icon <img width="25" height="24" alt="SCHTool-1" src="https://github.com/user-attachments/assets/36bf5a7c-fd5b-4bec-a0da-a4c866a9f214" /> to switch to the PCB design environment.
 
 <img width="1381" height="1068" alt="PCB-1" src="https://github.com/user-attachments/assets/5ae1f472-7fe3-4fc4-8056-2c0c8336ef9e" />
 
