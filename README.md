@@ -33,9 +33,9 @@ A comprehensive Windows-based CAD/EDA tool for schematic capture (SCH) and print
 See repository README.md and README.txt for build instructions and source code details.
 
 ### Contact
-Email: richard.yiqun.li@outlook.com
-Website: www.richardiffusion.me
-Github: github.com/richardiffusion
+- Email: richard.yiqun.li@outlook.com
+- Website: www.richardiffusion.me
+- Github: github.com/richardiffusion
 
 ---
 *For educational and research purposes. Commercial use requires proper licensing of third-party dependencies.*
