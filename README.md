@@ -1,3 +1,14 @@
+# EDS V4 - Open Source Electronic Design Automation (EDA) Software
+
+A comprehensive Windows-based CAD/EDA tool for schematic capture (SCH) and printed circuit board (PCB) design. Features extensive component libraries, auto-routing, DRC, and support for multi-sheet designs.
+
+🔧 Built with C++ and MFC using Codejock ToolkitPro
+📚 Over 10,000 components in library
+⚡ Real-time DRC and auto-routing
+🎯 Professional schematic & PCB layout tools
+
+*For educational and research purposes. Commercial use requires proper licensing of third-party dependencies.*
+
 # Quick Overview of EDS V4 Software Main Functions & Basic Usage
 
 ## The schematic design environment is abbreviated as SCH, and the printed circuit board design environment is abbreviated as CPB.
