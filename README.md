@@ -1,12 +1,38 @@
 # EDS V4 - Open Source Electronic Design Automation (EDA) Software
 
-A comprehensive Windows-based CAD/EDA tool for schematic capture (SCH) and printed circuit board (PCB) design. Features extensive component libraries, auto-routing, DRC, and support for multi-sheet designs.
+A comprehensive Windows-based CAD/EDA tool for schematic capture (SCH) and printed circuit board (PCB) design. Features extensive component libraries, auto-routing, DRC, and support for multi-sheet designs. Originally developed in Chinese, this open-source version provides full access to the C++ source code for educational and research purposes.
 
 - 🔧 Built with C++ and MFC using Codejock ToolkitPro
 - 📚 Over 10,000 components in library
 - ⚡ Real-time DRC and auto-routing
 - 🎯 Professional schematic & PCB layout tools
 
+## System Requirements
+- Windows 7/10/11
+- Visual Studio 2010 or later
+- Codejock ToolkitPro v15.0.1+
+
+## Quick Start
+
+### Prerequisites
+1. Install Visual Studio 2010+
+2. Install Codejock ToolkitPro v15.0.1+
+3. Clone this repository
+
+### ⚠️ Important Notes
+- **Windows Only**: Built for Windows environments
+- **Educational Use**: For learning and research purposes
+- **Third-party Dependencies**: Commercial use requires ToolkitPro license
+
+### 🔧 System Requirements
+- Windows 7/10/11
+- .NET Framework 4.5+
+- 2GB RAM minimum, 4GB recommended
+
+### 📚 Documentation
+See repository README.md and README.txt for build instructions and source code details.
+
+---
 *For educational and research purposes. Commercial use requires proper licensing of third-party dependencies.*
 
 # Quick Overview of EDS V4 Software Main Functions & Basic Usage
