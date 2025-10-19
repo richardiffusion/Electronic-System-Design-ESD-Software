@@ -35,7 +35,7 @@ See repository README.md and README.txt for build instructions and source code d
 ---
 *For educational and research purposes. Commercial use requires proper licensing of third-party dependencies.*
 
-# Quick Overview of EDS V4 Software Main Functions & Basic Usage
+# Quick Overview of ESD V4 Software Main Functions & Basic Usage
 
 ## The schematic design environment is abbreviated as SCH, and the printed circuit board design environment is abbreviated as CPB.
 
