@@ -1,0 +1,966 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Unicode Debug|Win32">
+      <Configuration>Unicode Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Unicode Release|Win32">
+      <Configuration>Unicode Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{45885665-4779-7183-1336-947816513582}</ProjectGuid>
+    <RootNamespace>ESD</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">.\Unicode_Release/vc71\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">.\Unicode_Release/vc71\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">.\Unicode_Debug/vc71\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">.\Unicode_Debug/vc71\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\Release/vc71\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\Release/vc71\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\Debug/vc71\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\Debug/vc71\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Unicode_Release/vc71/ESD.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/Zm200  %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>../../../Source;../../AboutDlg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Unicode_Release/vc71/ESD.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Unicode_Release/vc71/</AssemblerListingLocation>
+      <ObjectFileName>.\Unicode_Release/vc71/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Unicode_Release/vc71/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>../../../Source;../../AboutDlg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>../../../bin/vc71/ESDU.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>../../../lib/vc71;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ProgramDatabaseFile>.\Unicode_Release/vc71/ESDU.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>wWinMainCRTStartup</EntryPointSymbol>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Unicode_Debug/vc71/ESD.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/Zm200  %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../../../Source;../../AboutDlg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Unicode_Debug/vc71/ESD.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Unicode_Debug/vc71/</AssemblerListingLocation>
+      <ObjectFileName>.\Unicode_Debug/vc71/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Unicode_Debug/vc71/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>../../../Source;../../AboutDlg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>../../../bin/vc71/ESDUD.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>../../../lib/vc71;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Unicode_Debug/vc71/ESDUD.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>wWinMainCRTStartup</EntryPointSymbol>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Release/vc71/ESD.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/Zm200  %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>C:\Program Files\Codejock Software\MFC\Xtreme ToolkitPro v11.2.1\Samples\AboutDlg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Release/vc71/ESD.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/vc71/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/vc71/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/vc71/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>C:\Program Files\Codejock Software\MFC\Xtreme ToolkitPro v11.2.1\Samples\AboutDlg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>Gdiplus.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Release/ESD.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>D:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ProgramDatabaseFile>.\Release/vc71/ESD.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Debug/vc71/ESD.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/Zm200  %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Codejock Software\MFC\Xtreme ToolkitPro v15.0.1\Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Debug/vc71/ESD.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/vc71/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/vc71/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/vc71/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Codejock Software\MFC\Xtreme ToolkitPro v15.0.1\Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>gdiplus.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Debug/ESDD.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>C:\Program Files (x86)\Codejock Software\MFC\Xtreme ToolkitPro v15.0.1\lib\vc100;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/vc71/ESDD.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Bitmap_Transparent_Dialog.cpp" />
+    <ClCompile Include="Bitmap_Transparent_Page.cpp" />
+    <ClCompile Include="ChildFrm.cpp" />
+    <ClCompile Include="ClassViewPane.cpp" />
+    <ClCompile Include="CompListCtrl.cpp" />
+    <ClCompile Include="Dib.cpp" />
+    <ClCompile Include="Dlg_Annotate.cpp" />
+    <ClCompile Include="Dlg_AnnotateReset.cpp" />
+    <ClCompile Include="Dlg_Edit_FindText.cpp" />
+    <ClCompile Include="Dlg_Edit_JumpComp.cpp" />
+    <ClCompile Include="Dlg_Edit_JumpLocation.cpp" />
+    <ClCompile Include="Dlg_Edit_Repeat.cpp" />
+    <ClCompile Include="Dlg_Edit_ReplaceText.cpp" />
+    <ClCompile Include="Dlg_EditArc.cpp" />
+    <ClCompile Include="Dlg_EditBezier.cpp" />
+    <ClCompile Include="Dlg_EditBusEntry.cpp" />
+    <ClCompile Include="Dlg_EditComp.cpp" />
+    <ClCompile Include="Dlg_EditCompText.cpp" />
+    <ClCompile Include="Dlg_EditEllipse.cpp" />
+    <ClCompile Include="Dlg_EditEllipseFill.cpp" />
+    <ClCompile Include="Dlg_EditGraphic.cpp" />
+    <ClCompile Include="Dlg_EditIeee.cpp" />
+    <ClCompile Include="Dlg_EditJunction.cpp" />
+    <ClCompile Include="Dlg_EditNetlabel.cpp" />
+    <ClCompile Include="Dlg_EditOffSheet.cpp" />
+    <ClCompile Include="Dlg_EditPie.cpp" />
+    <ClCompile Include="Dlg_EditPin.cpp" />
+    <ClCompile Include="Dlg_EditPort.cpp" />
+    <ClCompile Include="Dlg_EditPower.cpp" />
+    <ClCompile Include="Dlg_EditRect.cpp" />
+    <ClCompile Include="Dlg_EditRoundrect.cpp" />
+    <ClCompile Include="Dlg_EditSheetEntry.cpp" />
+    <ClCompile Include="Dlg_EditSheetSymbol.cpp" />
+    <ClCompile Include="Dlg_EditSheetSymbolDF.cpp" />
+    <ClCompile Include="Dlg_EditText.cpp" />
+    <ClCompile Include="Dlg_EditTextFrame.cpp" />
+    <ClCompile Include="Dlg_File_Insert.cpp" />
+    <ClCompile Include="Dlg_FirstPage.cpp" />
+    <ClCompile Include="Dlg_Font.cpp" />
+    <ClCompile Include="Dlg_Global_Bus.cpp" />
+    <ClCompile Include="Dlg_Global_Designator.cpp" />
+    <ClCompile Include="Dlg_Global_Fill.cpp" />
+    <ClCompile Include="Dlg_Global_Polyline.cpp" />
+    <ClCompile Include="Dlg_Global_Port.cpp" />
+    <ClCompile Include="Dlg_Global_Power.cpp" />
+    <ClCompile Include="Dlg_Global_Text.cpp" />
+    <ClCompile Include="Dlg_HighlightList.cpp" />
+    <ClCompile Include="Dlg_InputText.cpp" />
+    <ClCompile Include="Dlg_LibManageA.cpp" />
+    <ClCompile Include="Dlg_Missing_Component.cpp" />
+    <ClCompile Include="Dlg_MyHelp.cpp" />
+    <ClCompile Include="Dlg_PCBEditDimension.cpp" />
+    <ClCompile Include="Dlg_PCB_LoadPackageByName.cpp" />
+    <ClCompile Include="Dlg_PCB_LoadPackageXY.cpp" />
+    <ClCompile Include="Dlg_PCBBoardInfo.cpp" />
+    <ClCompile Include="Dlg_PCBBoardOptions.cpp" />
+    <ClCompile Include="Dlg_PCBEditArc.cpp" />
+    <ClCompile Include="Dlg_PCBEditComp.cpp" />
+    <ClCompile Include="Dlg_PCBEditCoordinate.cpp" />
+    <ClCompile Include="Dlg_PCBEditDimensionLinear.cpp" />
+    <ClCompile Include="Dlg_PCBEditFill.cpp" />
+    <ClCompile Include="Dlg_PCBEditPad.cpp" />
+    <ClCompile Include="Dlg_PCBEditPolygon.cpp" />
+    <ClCompile Include="Dlg_PCBEditRegion.cpp" />
+    <ClCompile Include="Dlg_PCBEditSplitPlane.cpp" />
+    <ClCompile Include="Dlg_PCBEditText.cpp" />
+    <ClCompile Include="Dlg_PCBEditTrack.cpp" />
+    <ClCompile Include="Dlg_PCBEditVia.cpp" />
+    <ClCompile Include="Dlg_PcbHighlightPins.cpp" />
+    <ClCompile Include="Dlg_PcbJumpComp.cpp" />
+    <ClCompile Include="Dlg_PcbLayerName.cpp" />
+    <ClCompile Include="Dlg_PCBLayerSet.cpp" />
+    <ClCompile Include="Dlg_PCBLayerSetup.cpp" />
+    <ClCompile Include="Dlg_PCBLayerStack.cpp" />
+    <ClCompile Include="Dlg_PcbLib_Add.cpp" />
+    <ClCompile Include="Dlg_PcbLib_Attrib.cpp" />
+    <ClCompile Include="Dlg_PCBLib_Browse.cpp" />
+    <ClCompile Include="Dlg_PCBMultiSelection.cpp" />
+    <ClCompile Include="Dlg_PcbNetEdit.cpp" />
+    <ClCompile Include="Dlg_PcbNetName.cpp" />
+    <ClCompile Include="Dlg_PcbNetParamEdit.cpp" />
+    <ClCompile Include="Dlg_PcbPerference.cpp" />
+    <ClCompile Include="Dlg_PCBPowerPlane.cpp" />
+    <ClCompile Include="Dlg_PcbRulesPrioritySetup.cpp" />
+    <ClCompile Include="Dlg_PCBSnapSetup.cpp" />
+    <ClCompile Include="Dlg_PcbTearDrop.cpp" />
+    <ClCompile Include="Dlg_Perference.cpp" />
+    <ClCompile Include="Dlg_PlaceComp.cpp" />
+    <ClCompile Include="Dlg_PlacePackage.cpp" />
+    <ClCompile Include="Dlg_Print_Setup_PCB.cpp" />
+    <ClCompile Include="Dlg_Print_Setup_SCH.cpp" />
+    <ClCompile Include="Dlg_Report.cpp" />
+    <ClCompile Include="Dlg_Report_CompNet.cpp" />
+    <ClCompile Include="Dlg_ReportElements.cpp" />
+    <ClCompile Include="Dlg_SchLib_Add.cpp" />
+    <ClCompile Include="Dlg_SchLib_Attrib.cpp" />
+    <ClCompile Include="Dlg_SchLib_Browse.cpp" />
+    <ClCompile Include="Dlg_SchLib_List.cpp" />
+    <ClCompile Include="Dlg_SchLib_New.cpp" />
+    <ClCompile Include="Dlg_SchLib_SourceComp.cpp" />
+    <ClCompile Include="Dlg_SelectPin.cpp" />
+    <ClCompile Include="Dlg_TextFrame_Text.cpp" />
+    <ClCompile Include="DynamicHelpView.cpp" />
+    <ClCompile Include="ESD.cpp" />
+    <ClCompile Include="ESDDoc.cpp" />
+    <ClCompile Include="ESDView.cpp" />
+    <ClCompile Include="ESD_Lib_CompHead.cpp" />
+    <ClCompile Include="ESD_PCB_Arc.cpp" />
+    <ClCompile Include="ESD_PCB_Class.cpp" />
+    <ClCompile Include="ESD_PCB_Comp.cpp" />
+    <ClCompile Include="ESD_PCB_Connection.cpp" />
+    <ClCompile Include="ESD_PCB_Coordinate.cpp" />
+    <ClCompile Include="ESD_PCB_Dimension.cpp" />
+    <ClCompile Include="ESD_PCB_Fill.cpp" />
+    <ClCompile Include="ESD_PCB_Net.cpp" />
+    <ClCompile Include="ESD_PCB_Pad.cpp" />
+    <ClCompile Include="ESD_PCB_Polygon.cpp" />
+    <ClCompile Include="ESD_PCB_Region.cpp" />
+    <ClCompile Include="ESD_PCB_Sheet.cpp" />
+    <ClCompile Include="ESD_PCB_Text.cpp" />
+    <ClCompile Include="ESD_PCB_Track.cpp" />
+    <ClCompile Include="ESD_PCB_Via.cpp" />
+    <ClCompile Include="ESD_SCH_Arc.cpp" />
+    <ClCompile Include="ESD_SCH_Bezier.cpp" />
+    <ClCompile Include="ESD_SCH_Comp.cpp" />
+    <ClCompile Include="ESD_SCH_Ellipse.cpp" />
+    <ClCompile Include="ESD_SCH_EllipseFill.cpp" />
+    <ClCompile Include="ESD_SCH_Graphic.cpp" />
+    <ClCompile Include="ESD_SCH_Ieee.cpp" />
+    <ClCompile Include="ESD_SCH_Junc.cpp" />
+    <ClCompile Include="ESD_SCH_Line.cpp" />
+    <ClCompile Include="ESD_SCH_Net.cpp" />
+    <ClCompile Include="ESD_SCH_Pie.cpp" />
+    <ClCompile Include="ESD_SCH_Pin.cpp" />
+    <ClCompile Include="ESD_SCH_Polygon.cpp" />
+    <ClCompile Include="ESD_SCH_PolyLine.cpp" />
+    <ClCompile Include="ESD_SCH_Port.cpp" />
+    <ClCompile Include="ESD_SCH_Power.cpp" />
+    <ClCompile Include="ESD_SCH_Rect.cpp" />
+    <ClCompile Include="ESD_SCH_RoundRect.cpp" />
+    <ClCompile Include="ESD_SCH_Sheet.cpp" />
+    <ClCompile Include="ESD_SCH_SheetEntry.cpp" />
+    <ClCompile Include="ESD_SCH_SheetSymbol.cpp" />
+    <ClCompile Include="ESD_SCH_Text.cpp" />
+    <ClCompile Include="ESD_SCH_TextFrame.cpp" />
+    <ClCompile Include="inedit.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="MarkupStatic.cpp" />
+    <ClCompile Include="OutputPane.cpp" />
+    <ClCompile Include="Page_EditBus.cpp" />
+    <ClCompile Include="Page_EditPolygon.cpp" />
+    <ClCompile Include="Page_EditPolyline.cpp" />
+    <ClCompile Include="Page_EditWire.cpp" />
+    <ClCompile Include="Page_PcbRules1.cpp" />
+    <ClCompile Include="Page_PcbRules2.cpp" />
+    <ClCompile Include="Page_PcbRules3.cpp" />
+    <ClCompile Include="Page_PcbRules4.cpp" />
+    <ClCompile Include="Page_PcbRules5.cpp" />
+    <ClCompile Include="Page_PcbRules6.cpp" />
+    <ClCompile Include="Page_PcbRules7.cpp" />
+    <ClCompile Include="Page_SchOptions.cpp" />
+    <ClCompile Include="Page_SchUnit.cpp" />
+    <ClCompile Include="Page_Vertices.cpp" />
+    <ClCompile Include="PcbUndo.cpp" />
+    <ClCompile Include="PropertiesPane.cpp" />
+    <ClCompile Include="ReportCtrlItem.cpp" />
+    <ClCompile Include="ResourceViewPane.cpp" />
+    <ClCompile Include="SchUndo.cpp" />
+    <ClCompile Include="Sheet_EditBus.cpp" />
+    <ClCompile Include="Sheet_EditPolygon.cpp" />
+    <ClCompile Include="Sheet_EditPolyline.cpp" />
+    <ClCompile Include="Sheet_EditWire.cpp" />
+    <ClCompile Include="Sheet_SchOptions.cpp" />
+    <ClCompile Include="Sheetswnd.cpp" />
+    <ClCompile Include="SolutionExplorerPane.cpp" />
+    <ClCompile Include="Static_Color.cpp" />
+    <ClCompile Include="Static_PinDemo.cpp" />
+    <ClCompile Include="Static_SampleText.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="VertexListCtrl.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ESD.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bitmap_Transparent_Dialog.h" />
+    <ClInclude Include="Bitmap_Transparent_Page.h" />
+    <ClInclude Include="ChildFrm.h" />
+    <ClInclude Include="ClassViewPane.h" />
+    <ClInclude Include="CompListCtrl.h" />
+    <ClInclude Include="Dib.h" />
+    <ClInclude Include="Dlg_About.h" />
+    <ClInclude Include="Dlg_Annotate.h" />
+    <ClInclude Include="Dlg_AnnotateReset.h" />
+    <ClInclude Include="Dlg_Edit_FindText.h" />
+    <ClInclude Include="Dlg_Edit_JumpComp.h" />
+    <ClInclude Include="Dlg_Edit_JumpLocation.h" />
+    <ClInclude Include="Dlg_Edit_Repeat.h" />
+    <ClInclude Include="Dlg_Edit_ReplaceText.h" />
+    <ClInclude Include="Dlg_EditArc.h" />
+    <ClInclude Include="Dlg_EditBezier.h" />
+    <ClInclude Include="Dlg_EditBusEntry.h" />
+    <ClInclude Include="Dlg_EditComp.h" />
+    <ClInclude Include="Dlg_EditCompText.h" />
+    <ClInclude Include="Dlg_EditEllipse.h" />
+    <ClInclude Include="Dlg_EditEllipseFill.h" />
+    <ClInclude Include="Dlg_EditGraphic.h" />
+    <ClInclude Include="Dlg_EditIeee.h" />
+    <ClInclude Include="Dlg_EditJunction.h" />
+    <ClInclude Include="Dlg_EditNetlabel.h" />
+    <ClInclude Include="Dlg_EditOffSheet.h" />
+    <ClInclude Include="Dlg_EditPie.h" />
+    <ClInclude Include="Dlg_EditPin.h" />
+    <ClInclude Include="Dlg_EditPort.h" />
+    <ClInclude Include="Dlg_EditPower.h" />
+    <ClInclude Include="Dlg_EditRect.h" />
+    <ClInclude Include="Dlg_EditRoundrect.h" />
+    <ClInclude Include="Dlg_EditSheetEntry.h" />
+    <ClInclude Include="Dlg_EditSheetSymbol.h" />
+    <ClInclude Include="Dlg_EditSheetSymbolDF.h" />
+    <ClInclude Include="Dlg_EditText.h" />
+    <ClInclude Include="Dlg_EditTextFrame.h" />
+    <ClInclude Include="Dlg_File_Insert.h" />
+    <ClInclude Include="Dlg_FirstPage.h" />
+    <ClInclude Include="Dlg_Font.h" />
+    <ClInclude Include="Dlg_Global_Bus.h" />
+    <ClInclude Include="Dlg_Global_Designator.h" />
+    <ClInclude Include="Dlg_Global_Fill.h" />
+    <ClInclude Include="Dlg_Global_Polyline.h" />
+    <ClInclude Include="Dlg_Global_Port.h" />
+    <ClInclude Include="Dlg_Global_Power.h" />
+    <ClInclude Include="Dlg_Global_Text.h" />
+    <ClInclude Include="Dlg_HighlightList.h" />
+    <ClInclude Include="Dlg_InputText.h" />
+    <ClInclude Include="Dlg_LibManageA.h" />
+    <ClInclude Include="Dlg_Missing_Component.h" />
+    <ClInclude Include="Dlg_MyHelp.h" />
+    <ClInclude Include="Dlg_PCBEditDimension.h" />
+    <ClInclude Include="Dlg_PCB_LoadPackageByName.h" />
+    <ClInclude Include="Dlg_PCB_LoadPackageXY.h" />
+    <ClInclude Include="Dlg_PCBBoardInfo.h" />
+    <ClInclude Include="Dlg_PCBBoardOptions.h" />
+    <ClInclude Include="Dlg_PCBEditArc.h" />
+    <ClInclude Include="Dlg_PCBEditComp.h" />
+    <ClInclude Include="Dlg_PCBEditCoordinate.h" />
+    <ClInclude Include="Dlg_PCBEditDimensionLinear.h" />
+    <ClInclude Include="Dlg_PCBEditFill.h" />
+    <ClInclude Include="Dlg_PCBEditPad.h" />
+    <ClInclude Include="Dlg_PCBEditPolygon.h" />
+    <ClInclude Include="Dlg_PCBEditRegion.h" />
+    <ClInclude Include="Dlg_PCBEditSplitPlane.h" />
+    <ClInclude Include="Dlg_PCBEditText.h" />
+    <ClInclude Include="Dlg_PCBEditTrack.h" />
+    <ClInclude Include="Dlg_PCBEditVia.h" />
+    <ClInclude Include="Dlg_PcbHighlightPins.h" />
+    <ClInclude Include="Dlg_PcbJumpComp.h" />
+    <ClInclude Include="Dlg_PcbLayerName.h" />
+    <ClInclude Include="Dlg_PCBLayerSet.h" />
+    <ClInclude Include="Dlg_PCBLayerSetup.h" />
+    <ClInclude Include="Dlg_PCBLayerStack.h" />
+    <ClInclude Include="Dlg_PcbLib_Add.h" />
+    <ClInclude Include="Dlg_PcbLib_Attrib.h" />
+    <ClInclude Include="Dlg_PCBLib_Browse.h" />
+    <ClInclude Include="Dlg_PCBMultiSelection.h" />
+    <ClInclude Include="Dlg_PcbNetEdit.h" />
+    <ClInclude Include="Dlg_PcbNetName.h" />
+    <ClInclude Include="Dlg_PcbNetParamEdit.h" />
+    <ClInclude Include="Dlg_PcbPerference.h" />
+    <ClInclude Include="Dlg_PCBPowerPlane.h" />
+    <ClInclude Include="Dlg_PcbRulesPrioritySetup.h" />
+    <ClInclude Include="Dlg_PCBSnapSetup.h" />
+    <ClInclude Include="Dlg_PcbTearDrop.h" />
+    <ClInclude Include="Dlg_Perference.h" />
+    <ClInclude Include="Dlg_PlaceComp.h" />
+    <ClInclude Include="Dlg_PlacePackage.h" />
+    <ClInclude Include="Dlg_Print_Setup_PCB.h" />
+    <ClInclude Include="Dlg_Print_Setup_SCH.h" />
+    <ClInclude Include="Dlg_Report.h" />
+    <ClInclude Include="Dlg_Report_CompNet.h" />
+    <ClInclude Include="Dlg_ReportElements.h" />
+    <ClInclude Include="Dlg_SchLib_Add.h" />
+    <ClInclude Include="Dlg_SchLib_Attrib.h" />
+    <ClInclude Include="Dlg_SchLib_Browse.h" />
+    <ClInclude Include="Dlg_SchLib_List.h" />
+    <ClInclude Include="Dlg_SchLib_New.h" />
+    <ClInclude Include="Dlg_SchLib_SourceComp.h" />
+    <ClInclude Include="Dlg_SelectPin.h" />
+    <ClInclude Include="Dlg_TextFrame_Text.h" />
+    <ClInclude Include="DynamicHelpView.h" />
+    <ClInclude Include="ESD.h" />
+    <ClInclude Include="ESDDoc.h" />
+    <ClInclude Include="ESDView.h" />
+    <ClInclude Include="ESD_Lib_CompHead.h" />
+    <ClInclude Include="ESD_PCB_Arc.h" />
+    <ClInclude Include="ESD_PCB_Class.h" />
+    <ClInclude Include="ESD_PCB_Comp.h" />
+    <ClInclude Include="ESD_PCB_Connection.h" />
+    <ClInclude Include="ESD_PCB_Coordinate.h" />
+    <ClInclude Include="ESD_PCB_Dimension.h" />
+    <ClInclude Include="ESD_PCB_Fill.h" />
+    <ClInclude Include="ESD_PCB_Net.h" />
+    <ClInclude Include="ESD_PCB_Pad.h" />
+    <ClInclude Include="ESD_PCB_Polygon.h" />
+    <ClInclude Include="ESD_PCB_Region.h" />
+    <ClInclude Include="ESD_PCB_Sheet.h" />
+    <ClInclude Include="ESD_PCB_Text.h" />
+    <ClInclude Include="ESD_PCB_Track.h" />
+    <ClInclude Include="ESD_PCB_Via.h" />
+    <ClInclude Include="ESD_SCH_Arc.h" />
+    <ClInclude Include="ESD_SCH_Bezier.h" />
+    <ClInclude Include="ESD_SCH_Comp.h" />
+    <ClInclude Include="ESD_SCH_Ellipse.h" />
+    <ClInclude Include="ESD_SCH_EllipseFill.h" />
+    <ClInclude Include="ESD_SCH_Graphic.h" />
+    <ClInclude Include="ESD_SCH_Ieee.h" />
+    <ClInclude Include="ESD_SCH_Junc.h" />
+    <ClInclude Include="ESD_SCH_Line.h" />
+    <ClInclude Include="ESD_SCH_Net.h" />
+    <ClInclude Include="ESD_SCH_Pie.h" />
+    <ClInclude Include="ESD_SCH_Pin.h" />
+    <ClInclude Include="ESD_SCH_Polygon.h" />
+    <ClInclude Include="ESD_SCH_PolyLine.h" />
+    <ClInclude Include="ESD_SCH_Port.h" />
+    <ClInclude Include="ESD_SCH_Power.h" />
+    <ClInclude Include="ESD_SCH_Rect.h" />
+    <ClInclude Include="ESD_SCH_RoundRect.h" />
+    <ClInclude Include="ESD_SCH_Sheet.h" />
+    <ClInclude Include="ESD_SCH_SheetEntry.h" />
+    <ClInclude Include="ESD_SCH_SheetSymbol.h" />
+    <ClInclude Include="ESD_SCH_Text.h" />
+    <ClInclude Include="ESD_SCH_TextFrame.h" />
+    <ClInclude Include="inedit.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="MarkupStatic.h" />
+    <ClInclude Include="OutputPane.h" />
+    <ClInclude Include="Page_EditBus.h" />
+    <ClInclude Include="Page_EditPolygon.h" />
+    <ClInclude Include="Page_EditPolyline.h" />
+    <ClInclude Include="Page_EditWire.h" />
+    <ClInclude Include="Page_PcbRules1.h" />
+    <ClInclude Include="Page_PcbRules2.h" />
+    <ClInclude Include="Page_PcbRules3.h" />
+    <ClInclude Include="Page_PcbRules4.h" />
+    <ClInclude Include="Page_PcbRules5.h" />
+    <ClInclude Include="Page_PcbRules6.h" />
+    <ClInclude Include="Page_PcbRules7.h" />
+    <ClInclude Include="Page_SchOptions.h" />
+    <ClInclude Include="Page_SchUnit.h" />
+    <ClInclude Include="Page_Vertices.h" />
+    <ClInclude Include="PcbUndo.h" />
+    <ClInclude Include="PropertiesPane.h" />
+    <ClInclude Include="ReportCtrlItem.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="ResourceViewPane.h" />
+    <ClInclude Include="schlibrary.h" />
+    <ClInclude Include="SchUndo.h" />
+    <ClInclude Include="Sheet_EditBus.h" />
+    <ClInclude Include="Sheet_EditPolygon.h" />
+    <ClInclude Include="Sheet_EditPolyline.h" />
+    <ClInclude Include="Sheet_EditWire.h" />
+    <ClInclude Include="Sheet_SchOptions.h" />
+    <ClInclude Include="Sheetswnd.h" />
+    <ClInclude Include="SolutionExplorerPane.h" />
+    <ClInclude Include="Static_Color.h" />
+    <ClInclude Include="Static_PinDemo.h" />
+    <ClInclude Include="Static_SampleText.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="Struct.h" />
+    <ClInclude Include="sysparam.h" />
+    <ClInclude Include="system.h" />
+    <ClInclude Include="SystemExt.h" />
+    <ClInclude Include="VectorFont.h" />
+    <ClInclude Include="VertexListCtrl.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\aboutdlg.bmp" />
+    <None Include="res\arancol.bmp" />
+    <None Include="res\aranlist.bmp" />
+    <None Include="res\bmp00001.bmp" />
+    <None Include="res\bmp00002.bmp" />
+    <None Include="res\bmp_1.bmp" />
+    <None Include="res\BTLR.bmp" />
+    <None Include="res\CjSample.ico" />
+    <None Include="res\clear.gif" />
+    <None Include="res\ctxhelp_hide.gif" />
+    <None Include="res\ctxhelp_show.gif" />
+    <None Include="res\ctxsample_hide.gif" />
+    <None Include="res\ctxsample_show.gif" />
+    <None Include="res\cursor2.cur" />
+    <None Include="res\cursor_zoomin.cur" />
+    <None Include="res\cursor_zoomout.cur" />
+    <None Include="res\cursorout.cur" />
+    <None Include="res\dynamic_help.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="res\ESD.ico" />
+    <None Include="res\ESD.rc2" />
+    <None Include="res\ESDDoc.ico" />
+    <None Include="res\edit_arc.bmp" />
+    <None Include="res\edit_bezier.bmp" />
+    <None Include="res\edit_bus.bmp" />
+    <None Include="res\edit_busentry.bmp" />
+    <None Include="res\edit_ellipse.bmp" />
+    <None Include="res\edit_ellipsefill.bmp" />
+    <None Include="res\edit_ellipticalarc.bmp" />
+    <None Include="res\edit_graphic.bmp" />
+    <None Include="res\edit_junction.bmp" />
+    <None Include="res\edit_line.bmp" />
+    <None Include="res\edit_netlabel.bmp" />
+    <None Include="res\edit_offsheet.bmp" />
+    <None Include="res\edit_pie.bmp" />
+    <None Include="res\edit_polygon.bmp" />
+    <None Include="res\edit_polyline.bmp" />
+    <None Include="res\edit_port.bmp" />
+    <None Include="res\edit_power.bmp" />
+    <None Include="res\edit_rect.bmp" />
+    <None Include="res\edit_roundrect.bmp" />
+    <None Include="res\edit_sheetentry.bmp" />
+    <None Include="res\edit_sheetsymbol.bmp" />
+    <None Include="res\edit_text.bmp" />
+    <None Include="res\edit_textframe.bmp" />
+    <None Include="res\edit_wire.bmp" />
+    <None Include="res\firstpage.bmp" />
+    <None Include="res\firstpage1.bmp" />
+    <None Include="res\FullScreen.bmp" />
+    <None Include="res\H_Copy.cur" />
+    <None Include="res\H_move.cur" />
+    <None Include="res\H_nw.cur" />
+    <None Include="res\H_PCB_Copy.cur" />
+    <None Include="res\H_point.cur" />
+    <None Include="res\help.bmp" />
+    <None Include="res\img_classtree.bmp" />
+    <None Include="res\img_filetree.bmp" />
+    <None Include="res\img_restree.bmp" />
+    <None Include="res\LRBT.bmp" />
+    <None Include="res\LRTB.bmp" />
+    <None Include="res\MenuBar.png" />
+    <None Include="res\PaneProperties.bmp" />
+    <None Include="res\pcb_edit_arc.bmp" />
+    <None Include="res\pcb_edit_coordinate.bmp" />
+    <None Include="res\pcb_edit_dimension.bmp" />
+    <None Include="res\pcb_edit_dimension_linear.bmp" />
+    <None Include="res\pcb_edit_fill.bmp" />
+    <None Include="res\pcb_edit_line.bmp" />
+    <None Include="res\pcb_edit_linerdimension.bmp" />
+    <None Include="res\pcb_edit_net.bmp" />
+    <None Include="res\pcb_edit_polygon.bmp" />
+    <None Include="res\pcb_edit_polygon1_1.bmp" />
+    <None Include="res\pcb_edit_polygon1_2.bmp" />
+    <None Include="res\pcb_edit_polygon1_3.bmp" />
+    <None Include="res\pcb_edit_polygon1_4.bmp" />
+    <None Include="res\pcb_edit_polygon2.bmp" />
+    <None Include="res\pcb_edit_polygon3.bmp" />
+    <None Include="res\pcb_edit_region.bmp" />
+    <None Include="res\pcb_edit_text.bmp" />
+    <None Include="res\pcb_edit_via.bmp" />
+    <None Include="res\pcb_rules_clearance.bmp" />
+    <None Include="res\pcb_rules_corner.bmp" />
+    <None Include="res\pcb_rules_corner1.bmp" />
+    <None Include="res\pcb_rules_corner2.bmp" />
+    <None Include="res\pcb_rules_corner3.bmp" />
+    <None Include="res\pcb_rules_internal1.bmp" />
+    <None Include="res\pcb_rules_internal2.bmp" />
+    <None Include="res\pcb_rules_internal3.bmp" />
+    <None Include="res\pcb_rules_paste.bmp" />
+    <None Include="res\pcb_rules_polygon1.bmp" />
+    <None Include="res\pcb_rules_polygon2.bmp" />
+    <None Include="res\pcb_rules_solder.bmp" />
+    <None Include="res\pcb_rules_via.bmp" />
+    <None Include="res\pcb_rules_width.bmp" />
+    <None Include="res\pcb_sel1.bmp" />
+    <None Include="res\pcb_sel2.bmp" />
+    <None Include="res\pcb_sel3.bmp" />
+    <None Include="res\pcb_sel4.bmp" />
+    <None Include="res\pcb_sel5.bmp" />
+    <None Include="res\pcb_sel6.bmp" />
+    <None Include="res\pcb_sel7.bmp" />
+    <None Include="res\pcb_sel8.bmp" />
+    <None Include="res\pcb_sel_arc.bmp" />
+    <None Include="res\pcb_sel_comp.bmp" />
+    <None Include="res\pcb_sel_fill.bmp" />
+    <None Include="res\pcb_sel_pad.bmp" />
+    <None Include="res\pcb_sel_poly.bmp" />
+    <None Include="res\pcb_sel_region.bmp" />
+    <None Include="res\pcb_sel_text.bmp" />
+    <None Include="res\pcb_sel_track.bmp" />
+    <None Include="res\pcb_sel_via.bmp" />
+    <None Include="res\pcb_selection.bmp" />
+    <None Include="res\PopupClose.ico" />
+    <None Include="res\print_landscape.bmp" />
+    <None Include="res\print_pcb_board.bmp" />
+    <None Include="res\print_pcb_sheet.bmp" />
+    <None Include="res\print_portrait.bmp" />
+    <None Include="res\print_sch_sheet.bmp" />
+    <None Include="res\print_sch_window.bmp" />
+    <None Include="res\sch_01.bmp" />
+    <None Include="res\SolutionExplorerPane.bmp" />
+    <None Include="res\tbar_preview.bmp" />
+    <None Include="res\TBLR.bmp" />
+    <None Include="res\test.gif" />
+    <None Include="res\ThemeBar.png" />
+    <None Include="res\Toolbar.bmp" />
+    <None Include="res\Toolbar.png" />
+    <None Include="res\toolbar1.bmp" />
+    <None Include="res\toolbar_schmain.bmp" />
+    <None Include="res\Toolbox.bmp" />
+    <None Include="res\Web.png" />
+    <CustomBuild Include="Config\SyntaxEdit.ini">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">copy "%(FullPath)" "$(TargetDir)EditConfig"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(TargetDir)EditConfig\SyntaxEdit.ini;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">copy "%(FullPath)" "$(TargetDir)EditConfig"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(TargetDir)EditConfig\SyntaxEdit.ini;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">copy "%(FullPath)" "$(TargetDir)EditConfig"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">$(TargetDir)EditConfig\SyntaxEdit.ini;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">copy "%(FullPath)" "$(TargetDir)EditConfig"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">$(TargetDir)EditConfig\SyntaxEdit.ini;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="Config\Schemas\_cpp.schclass">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">copy "%(FullPath)" "$(TargetDir)EditConfig\Schemas"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(TargetDir)EditConfig\Schemas\_cpp.schclass;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">copy "%(FullPath)" "$(TargetDir)EditConfig\Schemas"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(TargetDir)EditConfig\Schemas\_cpp.schclass;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">copy "%(FullPath)" "$(TargetDir)EditConfig\Schemas"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">$(TargetDir)EditConfig\Schemas\_cpp.schclass;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">copy "%(FullPath)" "$(TargetDir)EditConfig\Schemas"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">$(TargetDir)EditConfig\Schemas\_cpp.schclass;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="Config\Schemas\_HTML_ASP.schclass">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">copy "%(FullPath)" "$(TargetDir)EditConfig\Schemas"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(TargetDir)EditConfig\Schemas\_HTML_ASP.schclass;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">copy "%(FullPath)" "$(TargetDir)EditConfig\Schemas"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(TargetDir)EditConfig\Schemas\_HTML_ASP.schclass;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">copy "%(FullPath)" "$(TargetDir)EditConfig\Schemas"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">$(TargetDir)EditConfig\Schemas\_HTML_ASP.schclass;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">copy "%(FullPath)" "$(TargetDir)EditConfig\Schemas"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">$(TargetDir)EditConfig\Schemas\_HTML_ASP.schclass;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="Config\Schemas\_ini.schclass">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">copy "%(FullPath)" "$(TargetDir)EditConfig\Schemas"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(TargetDir)EditConfig\Schemas\_ini.schclass;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">copy "%(FullPath)" "$(TargetDir)EditConfig\Schemas"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(TargetDir)EditConfig\Schemas\_ini.schclass;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">copy "%(FullPath)" "$(TargetDir)EditConfig\Schemas"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">$(TargetDir)EditConfig\Schemas\_ini.schclass;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">copy "%(FullPath)" "$(TargetDir)EditConfig\Schemas"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">$(TargetDir)EditConfig\Schemas\_ini.schclass;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="Config\Schemas\_nsi.schclass">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">copy "%(FullPath)" "$(TargetDir)EditConfig\Schemas"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(TargetDir)EditConfig\Schemas\_nsi.schclass;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">copy "%(FullPath)" "$(TargetDir)EditConfig\Schemas"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(TargetDir)EditConfig\Schemas\_nsi.schclass;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">copy "%(FullPath)" "$(TargetDir)EditConfig\Schemas"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">$(TargetDir)EditConfig\Schemas\_nsi.schclass;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">copy "%(FullPath)" "$(TargetDir)EditConfig\Schemas"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">$(TargetDir)EditConfig\Schemas\_nsi.schclass;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="Config\Schemas\_pascal.schclass">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">copy "%(FullPath)" "$(TargetDir)EditConfig\Schemas"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(TargetDir)EditConfig\Schemas\_pascal.schclass;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">copy "%(FullPath)" "$(TargetDir)EditConfig\Schemas"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(TargetDir)EditConfig\Schemas\_pascal.schclass;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">copy "%(FullPath)" "$(TargetDir)EditConfig\Schemas"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">$(TargetDir)EditConfig\Schemas\_pascal.schclass;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">copy "%(FullPath)" "$(TargetDir)EditConfig\Schemas"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">$(TargetDir)EditConfig\Schemas\_pascal.schclass;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="Config\Schemas\_schclass.schclass">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">copy "%(FullPath)" "$(TargetDir)EditConfig\Schemas"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(TargetDir)EditConfig\Schemas\_schclass.schclass;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">copy "%(FullPath)" "$(TargetDir)EditConfig\Schemas"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(TargetDir)EditConfig\Schemas\_schclass.schclass;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">copy "%(FullPath)" "$(TargetDir)EditConfig\Schemas"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">$(TargetDir)EditConfig\Schemas\_schclass.schclass;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">copy "%(FullPath)" "$(TargetDir)EditConfig\Schemas"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">$(TargetDir)EditConfig\Schemas\_schclass.schclass;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="Config\Schemas\_sql.schclass">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">copy "%(FullPath)" "$(TargetDir)EditConfig\Schemas"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(TargetDir)EditConfig\Schemas\_sql.schclass;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">copy "%(FullPath)" "$(TargetDir)EditConfig\Schemas"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(TargetDir)EditConfig\Schemas\_sql.schclass;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">copy "%(FullPath)" "$(TargetDir)EditConfig\Schemas"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">$(TargetDir)EditConfig\Schemas\_sql.schclass;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">copy "%(FullPath)" "$(TargetDir)EditConfig\Schemas"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">$(TargetDir)EditConfig\Schemas\_sql.schclass;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="Config\Themes\colorSchema0.ini">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">copy "%(FullPath)" "$(TargetDir)EditConfig\Themes"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(TargetDir)EditConfig\Themes\colorSchema0.ini;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">copy "%(FullPath)" "$(TargetDir)EditConfig\Themes"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(TargetDir)EditConfig\Themes\colorSchema0.ini;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">copy "%(FullPath)" "$(TargetDir)EditConfig\Themes"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">$(TargetDir)EditConfig\Themes\colorSchema0.ini;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">copy "%(FullPath)" "$(TargetDir)EditConfig\Themes"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">$(TargetDir)EditConfig\Themes\colorSchema0.ini;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="Config\Themes\colorSchema1.ini">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">copy "%(FullPath)" "$(TargetDir)EditConfig\Themes"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(TargetDir)EditConfig\Themes\colorSchema1.ini;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">copy "%(FullPath)" "$(TargetDir)EditConfig\Themes"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(TargetDir)EditConfig\Themes\colorSchema1.ini;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">copy "%(FullPath)" "$(TargetDir)EditConfig\Themes"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">$(TargetDir)EditConfig\Themes\colorSchema1.ini;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">copy "%(FullPath)" "$(TargetDir)EditConfig\Themes"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">$(TargetDir)EditConfig\Themes\colorSchema1.ini;%(Outputs)</Outputs>
+    </CustomBuild>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="res\MainToolBar.png" />
+    <None Include="res\manifest.xml" />
+    <None Include="res\OtherToolBar1.PNG" />
+    <None Include="res\OtherToolBar2.PNG" />
+    <None Include="res\PCBDesignToolBar.png" />
+    <None Include="res\PCBMainToolBar.png" />
+    <None Include="res\PCBOtherToolBar1.png" />
+    <None Include="res\PCBPlaceToolBar.png" />
+    <None Include="res\PlaceToolBar1.png" />
+    <None Include="res\PlaceToolBar2.PNG" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="ESD.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

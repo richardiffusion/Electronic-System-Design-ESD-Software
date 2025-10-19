@@ -1,0 +1,19 @@
+//
+// ESD.RC2 - resources Microsoft Visual C++ does not edit directly
+//
+
+#ifdef APSTUDIO_INVOKED
+	#error this file is not editable by Microsoft Visual C++
+#endif //APSTUDIO_INVOKED
+
+//#include "Common/XTPVersion.h"
+#include "XTPVersion.h"
+
+#define _XTP_RESOURCE_LANGUAGE zh_CN
+#include <XTToolkitPro.rc>
+
+//#include "CodejockSample.rc"
+
+#ifdef _XTP_INCLUDE_SKINFRAMEWORK
+//#include "SkinFramework\Styles\Vista\Vista.rc"
+#endif

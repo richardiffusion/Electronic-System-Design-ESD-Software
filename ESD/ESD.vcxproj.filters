@@ -1,0 +1,1574 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2e9f811c-e042-4397-a5c0-2a9ee8cdb15a}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{078d87ee-301e-4a81-9c8b-3ec89639f134}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{9486ab42-00ad-430f-9eca-b00f6df04684}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="EditConfig">
+      <UniqueIdentifier>{044288ca-7e21-4356-84d8-f727ec7fdddd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EditConfig\Schemas">
+      <UniqueIdentifier>{46364f85-5aa7-4142-a396-9e61c06631ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EditConfig\Themes">
+      <UniqueIdentifier>{1b66bb82-2022-4e62-ad5e-4da9adacc3f8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Bitmap_Transparent_Dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bitmap_Transparent_Page.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassViewPane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CompListCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_Annotate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_AnnotateReset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_Edit_FindText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_Edit_JumpComp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_Edit_JumpLocation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_Edit_Repeat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_Edit_ReplaceText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_EditArc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_EditBezier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_EditBusEntry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_EditComp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_EditCompText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_EditEllipse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_EditEllipseFill.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_EditGraphic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_EditIeee.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_EditJunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_EditNetlabel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_EditOffSheet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_EditPie.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_EditPin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_EditPort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_EditPower.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_EditRect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_EditRoundrect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_EditSheetEntry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_EditSheetSymbol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_EditSheetSymbolDF.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_EditText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_EditTextFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_File_Insert.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_FirstPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_Font.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_Global_Bus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_Global_Designator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_Global_Fill.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_Global_Polyline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_Global_Port.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_Global_Power.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_Global_Text.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_HighlightList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_InputText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_LibManageA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_Missing_Component.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_MyHelp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_PCB_LoadPackageByName.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_PCB_LoadPackageXY.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_PCBBoardInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_PCBBoardOptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_PCBEditArc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_PCBEditComp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_PCBEditCoordinate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_PCBEditDimensionLinear.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_PCBEditFill.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_PCBEditPad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_PCBEditPolygon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_PCBEditRegion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_PCBEditSplitPlane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_PCBEditText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_PCBEditTrack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_PCBEditVia.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_PcbHighlightPins.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_PcbJumpComp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_PcbLayerName.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_PCBLayerSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_PCBLayerSetup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_PCBLayerStack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_PcbLib_Add.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_PcbLib_Attrib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_PCBLib_Browse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_PCBMultiSelection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_PcbNetEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_PcbNetName.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_PcbNetParamEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_PcbPerference.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_PCBPowerPlane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_PcbRulesPrioritySetup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_PCBSnapSetup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_PcbTearDrop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_Perference.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_PlaceComp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_PlacePackage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_Print_Setup_PCB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_Print_Setup_SCH.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_Report.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_Report_CompNet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_ReportElements.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_SchLib_Add.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_SchLib_Attrib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_SchLib_Browse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_SchLib_List.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_SchLib_New.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_SchLib_SourceComp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_SelectPin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_TextFrame_Text.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicHelpView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="inedit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MarkupStatic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputPane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Page_EditBus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Page_EditPolygon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Page_EditPolyline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Page_EditWire.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Page_PcbRules1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Page_PcbRules2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Page_PcbRules3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Page_PcbRules4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Page_PcbRules5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Page_PcbRules6.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Page_PcbRules7.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Page_SchOptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Page_SchUnit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Page_Vertices.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PcbUndo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertiesPane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReportCtrlItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceViewPane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SchUndo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sheet_EditBus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sheet_EditPolygon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sheet_EditPolyline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sheet_EditWire.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sheet_SchOptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sheetswnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SolutionExplorerPane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Static_Color.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Static_PinDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Static_SampleText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexListCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ESD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ESDDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ESDView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ESD_Lib_CompHead.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ESD_PCB_Arc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ESD_PCB_Class.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ESD_PCB_Comp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ESD_PCB_Connection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ESD_PCB_Coordinate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ESD_PCB_Dimension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ESD_PCB_Fill.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ESD_PCB_Net.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ESD_PCB_Pad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ESD_PCB_Polygon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ESD_PCB_Region.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ESD_PCB_Sheet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ESD_PCB_Text.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ESD_PCB_Track.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ESD_PCB_Via.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ESD_SCH_Arc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ESD_SCH_Bezier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ESD_SCH_Comp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ESD_SCH_Ellipse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ESD_SCH_EllipseFill.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ESD_SCH_Graphic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ESD_SCH_Ieee.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ESD_SCH_Junc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ESD_SCH_Line.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ESD_SCH_Net.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ESD_SCH_Pie.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ESD_SCH_Pin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ESD_SCH_Polygon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ESD_SCH_PolyLine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ESD_SCH_Port.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ESD_SCH_Power.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ESD_SCH_Rect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ESD_SCH_RoundRect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ESD_SCH_Sheet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ESD_SCH_SheetEntry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ESD_SCH_SheetSymbol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ESD_SCH_Text.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ESD_SCH_TextFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_PCBEditDimension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ESD.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bitmap_Transparent_Dialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bitmap_Transparent_Page.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassViewPane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CompListCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_About.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_Annotate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_AnnotateReset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_Edit_FindText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_Edit_JumpComp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_Edit_JumpLocation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_Edit_Repeat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_Edit_ReplaceText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_EditArc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_EditBezier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_EditBusEntry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_EditComp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_EditCompText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_EditEllipse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_EditEllipseFill.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_EditGraphic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_EditIeee.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_EditJunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_EditNetlabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_EditOffSheet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_EditPie.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_EditPin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_EditPort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_EditPower.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_EditRect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_EditRoundrect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_EditSheetEntry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_EditSheetSymbol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_EditSheetSymbolDF.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_EditText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_EditTextFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_File_Insert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_FirstPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_Font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_Global_Bus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_Global_Designator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_Global_Fill.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_Global_Polyline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_Global_Port.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_Global_Power.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_Global_Text.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_HighlightList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_InputText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_LibManageA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_Missing_Component.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_MyHelp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_PCB_LoadPackageByName.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_PCB_LoadPackageXY.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_PCBBoardInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_PCBBoardOptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_PCBEditArc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_PCBEditComp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_PCBEditCoordinate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_PCBEditDimensionLinear.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_PCBEditFill.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_PCBEditPad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_PCBEditPolygon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_PCBEditRegion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_PCBEditSplitPlane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_PCBEditText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_PCBEditTrack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_PCBEditVia.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_PcbHighlightPins.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_PcbJumpComp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_PcbLayerName.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_PCBLayerSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_PCBLayerSetup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_PCBLayerStack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_PcbLib_Add.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_PcbLib_Attrib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_PCBLib_Browse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_PCBMultiSelection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_PcbNetEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_PcbNetName.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_PcbNetParamEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_PcbPerference.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_PCBPowerPlane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_PcbRulesPrioritySetup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_PCBSnapSetup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_PcbTearDrop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_Perference.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_PlaceComp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_PlacePackage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_Print_Setup_PCB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_Print_Setup_SCH.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_Report.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_Report_CompNet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_ReportElements.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_SchLib_Add.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_SchLib_Attrib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_SchLib_Browse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_SchLib_List.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_SchLib_New.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_SchLib_SourceComp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_SelectPin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_TextFrame_Text.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicHelpView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MarkupStatic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputPane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Page_EditBus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Page_EditPolygon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Page_EditPolyline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Page_EditWire.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Page_PcbRules1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Page_PcbRules2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Page_PcbRules3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Page_PcbRules4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Page_PcbRules5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Page_PcbRules6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Page_PcbRules7.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Page_SchOptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Page_SchUnit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Page_Vertices.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PcbUndo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertiesPane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReportCtrlItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceViewPane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="schlibrary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SchUndo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sheet_EditBus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sheet_EditPolygon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sheet_EditPolyline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sheet_EditWire.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sheet_SchOptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sheetswnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SolutionExplorerPane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Static_Color.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Static_PinDemo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Static_SampleText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sysparam.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="system.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemExt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorFont.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexListCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESDDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESDView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESD_Lib_CompHead.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESD_PCB_Arc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESD_PCB_Class.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESD_PCB_Comp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESD_PCB_Connection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESD_PCB_Coordinate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESD_PCB_Dimension.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESD_PCB_Fill.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESD_PCB_Net.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESD_PCB_Pad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESD_PCB_Polygon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESD_PCB_Region.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESD_PCB_Sheet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESD_PCB_Text.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESD_PCB_Track.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESD_PCB_Via.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESD_SCH_Arc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESD_SCH_Bezier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESD_SCH_Comp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESD_SCH_Ellipse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESD_SCH_EllipseFill.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESD_SCH_Graphic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESD_SCH_Ieee.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESD_SCH_Junc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESD_SCH_Line.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESD_SCH_Net.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESD_SCH_Pie.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESD_SCH_Pin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESD_SCH_Polygon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESD_SCH_PolyLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESD_SCH_Port.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESD_SCH_Power.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESD_SCH_Rect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESD_SCH_RoundRect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESD_SCH_Sheet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESD_SCH_SheetEntry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESD_SCH_SheetSymbol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESD_SCH_Text.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESD_SCH_TextFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_PCBEditDimension.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\aboutdlg.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\arancol.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\aranlist.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmp00001.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmp00002.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmp_1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BTLR.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\CjSample.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\clear.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ctxhelp_hide.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ctxhelp_show.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ctxsample_hide.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ctxsample_show.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\cursor2.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\cursor_zoomin.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\cursor_zoomout.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\cursorout.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\dynamic_help.htm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\edit_arc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\edit_bezier.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\edit_bus.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\edit_busentry.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\edit_ellipse.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\edit_ellipsefill.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\edit_ellipticalarc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\edit_graphic.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\edit_junction.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\edit_line.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\edit_netlabel.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\edit_offsheet.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\edit_pie.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\edit_polygon.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\edit_polyline.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\edit_port.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\edit_power.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\edit_rect.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\edit_roundrect.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\edit_sheetentry.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\edit_sheetsymbol.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\edit_text.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\edit_textframe.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\edit_wire.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\firstpage.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\firstpage1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\FullScreen.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\H_Copy.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\H_move.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\H_nw.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\H_PCB_Copy.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\H_point.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\help.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\img_classtree.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\img_filetree.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\img_restree.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\LRBT.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\LRTB.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\MenuBar.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\PaneProperties.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pcb_edit_arc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pcb_edit_coordinate.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pcb_edit_dimension.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pcb_edit_dimension_linear.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pcb_edit_fill.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pcb_edit_line.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pcb_edit_linerdimension.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pcb_edit_net.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pcb_edit_polygon.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pcb_edit_polygon1_1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pcb_edit_polygon1_2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pcb_edit_polygon1_3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pcb_edit_polygon1_4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pcb_edit_polygon2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pcb_edit_polygon3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pcb_edit_region.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pcb_edit_text.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pcb_edit_via.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pcb_rules_clearance.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pcb_rules_corner.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pcb_rules_corner1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pcb_rules_corner2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pcb_rules_corner3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pcb_rules_internal1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pcb_rules_internal2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pcb_rules_internal3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pcb_rules_paste.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pcb_rules_polygon1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pcb_rules_polygon2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pcb_rules_solder.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pcb_rules_via.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pcb_rules_width.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pcb_sel1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pcb_sel2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pcb_sel3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pcb_sel4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pcb_sel5.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pcb_sel6.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pcb_sel7.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pcb_sel8.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pcb_sel_arc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pcb_sel_comp.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pcb_sel_fill.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pcb_sel_pad.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pcb_sel_poly.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pcb_sel_region.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pcb_sel_text.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pcb_sel_track.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pcb_sel_via.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pcb_selection.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\PopupClose.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\print_landscape.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\print_pcb_board.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\print_pcb_sheet.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\print_portrait.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\print_sch_sheet.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\print_sch_window.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\sch_01.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\SolutionExplorerPane.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\tbar_preview.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\TBLR.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\test.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ThemeBar.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\toolbar1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\toolbar_schmain.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbox.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Web.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="res\MainToolBar.png" />
+    <None Include="res\manifest.xml" />
+    <None Include="res\OtherToolBar1.PNG" />
+    <None Include="res\OtherToolBar2.PNG" />
+    <None Include="res\PCBDesignToolBar.png" />
+    <None Include="res\PCBMainToolBar.png" />
+    <None Include="res\PCBOtherToolBar1.png" />
+    <None Include="res\PCBPlaceToolBar.png" />
+    <None Include="res\PlaceToolBar1.png" />
+    <None Include="res\PlaceToolBar2.PNG" />
+    <None Include="res\ESD.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ESD.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ESDDoc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Config\SyntaxEdit.ini">
+      <Filter>EditConfig</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Config\Schemas\_cpp.schclass">
+      <Filter>EditConfig\Schemas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Config\Schemas\_HTML_ASP.schclass">
+      <Filter>EditConfig\Schemas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Config\Schemas\_ini.schclass">
+      <Filter>EditConfig\Schemas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Config\Schemas\_nsi.schclass">
+      <Filter>EditConfig\Schemas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Config\Schemas\_pascal.schclass">
+      <Filter>EditConfig\Schemas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Config\Schemas\_schclass.schclass">
+      <Filter>EditConfig\Schemas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Config\Schemas\_sql.schclass">
+      <Filter>EditConfig\Schemas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Config\Themes\colorSchema0.ini">
+      <Filter>EditConfig\Themes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Config\Themes\colorSchema1.ini">
+      <Filter>EditConfig\Themes</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
