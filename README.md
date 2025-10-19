@@ -1,4 +1,4 @@
-# EDS V4 - Open Source Electronic Design Automation (EDA) Software
+# ESD V4 - Open Source Electronic Design Automation (EDA) Software
 
 A comprehensive Windows-based CAD/EDA tool for schematic capture (SCH) and printed circuit board (PCB) design. Features extensive component libraries, auto-routing, DRC, and support for multi-sheet designs. Originally developed in Chinese, this open-source version provides full access to the C++ source code for educational and research purposes.
 
