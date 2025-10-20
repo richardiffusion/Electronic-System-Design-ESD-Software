@@ -37,7 +37,7 @@ See repository README.md and README.txt for build instructions and source code d
 
 # Quick Overview of ESD V4 Software Main Functions & Basic Usage
 
-## The schematic design environment is abbreviated as SCH, and the printed circuit board design environment is abbreviated as CPB.
+## The schematic design environment is abbreviated as SCH, and the printed circuit board design environment is abbreviated as PCB.
 
 ## First, run ESD.exe. The SCH interface will appear. Execute the **File/Open** command and open the sample design file `controller.eda` located in the `demo` folder.
 
@@ -55,7 +55,7 @@ See repository README.md and README.txt for build instructions and source code d
 
 <img width="1381" height="1068" alt="PCB-1" src="https://github.com/user-attachments/assets/5ae1f472-7fe3-4fc4-8056-2c0c8336ef9e" />
 
-## The SCH and PCB environments work together to complete the process from schematic design to PCB realization. The component list and netlist from SCH can be automatically transferred to the PCB environment, enabling automated design processes such as loading footprints, component placement, routing, and Design Rule Checking (DRC). Of course, using only the SCH part or only the PCB part can also fulfill user requirements. For example, even with only a PCB file, it's possible to generate a component list and netlist from the PCB, and then proceed with DRC.
+## The SCH and PCB environments work together to complete the process from schematic design to PCB realization. The component list and netlist from SCH can be automatically transferred to the PCB environment, enabling automated design processes such as loading packages, component placement, routing, and Design Rule Checking (DRC). Of course, using only the SCH part or only the PCB part can also fulfill user requirements. For example, even with only a PCB file, it's possible to generate a component list and netlist from the PCB, and then proceed with DRC.
 
 ## Operations on objects in both SCH and PCB follow the general standards of CAD design software: **Left-click = Select, Double-click = Edit, Hold left button and drag = Move**. All editing commands for objects are located under the main menu "Edit", and all placement commands are under the main menu "Place". The software fully supports **Undo** and **Redo** for operations.
 
@@ -105,7 +105,7 @@ See repository README.md and README.txt for build instructions and source code d
 
 <img width="623" height="294" alt="SCH-8" src="https://github.com/user-attachments/assets/0dc7590f-f8a9-4f1d-834f-649a39af9969" />
 
-## SCH Component Libraries and PCB Footprint Libraries contain tens of thousands of components and support user customization.
+## SCH Component Libraries and PCB Package Libraries contain tens of thousands of components and support user customization.
 
 <img width="1379" height="1066" alt="SCH-9" src="https://github.com/user-attachments/assets/15088c57-202c-4639-a1a9-ce36eb8f37ad" />
 
@@ -144,3 +144,5 @@ See repository README.md and README.txt for build instructions and source code d
 <img width="1396" height="1056" alt="PCB-12" src="https://github.com/user-attachments/assets/08b0b426-9462-458d-b115-8373d1988e77" />
 
 # The complete software functionality and user manual cover over 300 pages, which cannot be detailed here. Interested users or developers can contact the author for further assistance.
+
+Copyright richardiffusion.me 2020-2025 
