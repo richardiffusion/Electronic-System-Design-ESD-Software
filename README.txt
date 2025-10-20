@@ -9,5 +9,4 @@
     *   **C/C++ -> Additional Include Directories:** `C:\Program Files (x86)\Codejock Software\MFC\Xtreme ToolkitPro v15.0.1\Source;%(AdditionalIncludeDirectories)`
     *   **Linker -> Additional Library Directories:** `C:\Program Files (x86)\Codejock Software\MFC\Xtreme ToolkitPro v15.0.1\lib\vc100;%(AdditionalLibraryDirectories)`
     *   **Resources -> Additional Include Directories:** `C:\Program Files (x86)\Codejock Software\MFC\Xtreme ToolkitPro v15.0.1\Source;%(AdditionalIncludeDirectories)`
-9.  If you encounter any problems, please contact [...] for assistance.
-10. Refer to the `readme.txt` files of other projects on GitHub for adding any necessary content.
+9.  If you encounter any problems, please contact [richard.yiqun.li@outlook.com] or [github.com/richardiffusion] for assistance.
